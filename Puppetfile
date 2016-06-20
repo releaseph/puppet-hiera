@@ -9,3 +9,8 @@ mod 'ntp',
   :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git',
   :branch => 'master',
   :commit => '4068aa268cd09d104053de2116e37ab5fff45f1f'
+
+mod 'ntp',
+  :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
+  :branch => 'master',
+  :commit => 'b7e1f8974b0e7ed494a79bbde27214099108aac6'
