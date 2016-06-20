@@ -14,3 +14,8 @@ mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
   :branch => 'master',
   :commit => 'b7e1f8974b0e7ed494a79bbde27214099108aac6'
+
+mod 'puppetmodule',
+  :git => 'https://github.com/bastelfreak/puppetmodule.git',
+  :branch => 'master',
+  :commit => 'c02d2d357bdda76b707d47ba739f09fba23e2725'
