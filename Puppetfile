@@ -19,3 +19,8 @@ mod 'puppetmodule',
   :git => 'https://github.com/bastelfreak/puppetmodule.git',
   :branch => 'master',
   :commit => 'c02d2d357bdda76b707d47ba739f09fba23e2725'
+
+mod 'apache',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
+  :branch => 'master',
+  :commit => 'a38324b005035079869c42e4484dbe682e5d856a'
