@@ -24,3 +24,8 @@ mod 'apache',
   :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
   :branch => 'master',
   :commit => 'a38324b005035079869c42e4484dbe682e5d856a'
+
+mod 'concat',
+  :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
+  :branch => 'master',
+  :commit => '37c4f8a40d9fc208c299b7a73ac0aba33cb90cc1'
