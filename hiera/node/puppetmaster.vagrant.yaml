@@ -3,3 +3,4 @@ classes:
   - puppet::master
 
 puppet::master::environments: 'directory'
+puppet::master::autosign: true
