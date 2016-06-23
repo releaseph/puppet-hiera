@@ -29,3 +29,8 @@ mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
   :branch => 'master',
   :commit => '37c4f8a40d9fc208c299b7a73ac0aba33cb90cc1'
+
+mod 'inifile',
+  :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
+  :branch => 'master',
+  :commit => '56b24fa819826afd713f289ae355b095c3850ca4'
