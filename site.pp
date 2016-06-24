@@ -1,4 +1,3 @@
-$environment = 'dev'
 include stdlib
 hiera_include('classes')
 node default {
