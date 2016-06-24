@@ -1,5 +1,5 @@
 include stdlib
-hiera_include('classes')
+hiera_include('classes',[])
 node default {
-  hiera_resources('resources')
+  hiera_resources('resources',{})
 }
