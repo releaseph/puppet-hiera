@@ -1,12 +1,9 @@
 ---
 classes:
   - puppet::master
-  - r10k
 
 puppet::master::environments: 'directory'
 puppet::master::autosign: true
-
-#r10k::remote: 'git@github.com:pscadiz/puppet-stuff'
 
 resources:
   wget:
