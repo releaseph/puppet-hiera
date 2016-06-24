@@ -34,3 +34,8 @@ mod 'inifile',
   :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
   :branch => 'master',
   :commit => '56b24fa819826afd713f289ae355b095c3850ca4'
+
+mod 'hiera_resources',
+  :git => 'https://github.com/rnelson0/puppet-hiera_resources.git',
+  :branch => 'master',
+  :commit => '422f111211d3ab6f3fa3703b4cb4693d24234775'
