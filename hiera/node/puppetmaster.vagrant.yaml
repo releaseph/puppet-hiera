@@ -6,5 +6,6 @@ puppet::master::environments: 'directory'
 puppet::master::autosign: true
 
 resources:
-  wget:
-    ensure: present
+  package:
+    wget:
+      ensure: installed
