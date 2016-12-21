@@ -1,6 +1,7 @@
 ---
 classes:
   - ntp
+  - ec2tagfacts
 
 ntp::servers:
   - 0.us.pool.ntp.org
