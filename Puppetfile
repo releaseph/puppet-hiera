@@ -44,3 +44,8 @@ mod 'git',
   :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
   :branch => 'master',
   :commit => '4e4498e3db218cefc27e40b7eb4e442177ccab28'
+
+mod 'nano',
+  :git => 'https://github.com/cornfeedhobo/puppet-nano.git',
+  :branch => 'master',
+  :commit => '6a4609c9cc712a946614f9ec9f78a981c08f1159'
