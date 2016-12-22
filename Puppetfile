@@ -40,6 +40,11 @@ mod 'epel',
   :branch => 'master',
   :commit => '292ff3311d5348a2449a53f8643dd20e43be52f1'
 
+mod 'git',
+  :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
+  :branch => 'master',
+  :commit => '4e4498e3db218cefc27e40b7eb4e442177ccab28'
+
 mod 'nano',
   :git => 'https://github.com/cornfeedhobo/puppet-nano.git',
   :branch => 'master',
