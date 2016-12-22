@@ -2,7 +2,6 @@
 classes:
   - ntp
   - ec2tagfacts
-  - nano
 
 ntp::servers:
   - 0.us.pool.ntp.org
