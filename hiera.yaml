@@ -5,5 +5,5 @@
   :datadir: /etc/puppetlabs/code/environments/%{::environment}/hieradata
 :hierarchy:
   - node/%{::fqdn}
-  - roles/%{::role}
+  - roles/%{::puppet_role}
   - common
