@@ -15,16 +15,6 @@ mod 'stdlib',
   :branch => 'master',
   :commit => 'b7e1f8974b0e7ed494a79bbde27214099108aac6'
 
-mod 'puppet',
-  :git => 'https://github.com/bastelfreak/puppetmodule.git',
-  :branch => 'master',
-  :commit => 'c02d2d357bdda76b707d47ba739f09fba23e2725'
-
-mod 'apache',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
-  :branch => 'master',
-  :commit => 'a38324b005035079869c42e4484dbe682e5d856a'
-
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
   :branch => 'master',
@@ -49,3 +39,8 @@ mod 'epel',
   :git => 'https://github.com/stahnma/puppet-module-epel.git',
   :branch => 'master',
   :commit => '292ff3311d5348a2449a53f8643dd20e43be52f1'
+
+mod 'nano',
+  :git => 'https://github.com/cornfeedhobo/puppet-nano.git',
+  :branch => 'master',
+  :commit => '6a4609c9cc712a946614f9ec9f78a981c08f1159'
