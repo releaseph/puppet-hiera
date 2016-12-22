@@ -1,5 +1,9 @@
 ---
 classes:
   - r10k
+  - webhook
 
 r10k::remote: 'git@github.com:pscadiz/puppet-stuff.git'
+
+webhook::repo_puppetfile: 'git@github.com:pscadiz/puppet-stuff.git'
+webhook::hieradata: 'git@github.com:pscadiz/puppet-stuff.git'

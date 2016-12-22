@@ -44,3 +44,8 @@ mod 'git',
   :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
   :branch => 'master',
   :commit => '4e4498e3db218cefc27e40b7eb4e442177ccab28'
+
+mod 'webhook',
+  :git => 'https://github.com/dj-wasabi/puppet-webhook.git',
+  :branch => 'master',
+  :commit => '8d860db9f8e909ae7d5f5ca5129466969c3bd852'
