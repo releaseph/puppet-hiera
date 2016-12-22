@@ -6,4 +6,6 @@ classes:
 
 r10k::remote: 'git@github.com:pscadiz/puppet-stuff.git'
 r10k::webhook::use_mcollective: false
-r10k::webhook::config::use_mcollective: false
+r10k::webhook::config:
+  use_mcollective: false
+  enable_ssl: false
