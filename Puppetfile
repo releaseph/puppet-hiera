@@ -3,7 +3,7 @@ forge 'forge.puppetlabs.com'
 mod 'r10k',
   :git => 'https://github.com/acidprime/r10k.git',
   :branch => 'master',
-  :commit => 'f2707811b7cd6b3e9c83bfc767e7dabd7601b994'
+  :commit => 'e584e3ae241307c6af01a0de87f6efbf8c058aba'
 
 mod 'ntp',
   :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git',
