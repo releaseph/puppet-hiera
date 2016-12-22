@@ -1,5 +1,7 @@
 ---
 classes:
   - r10k
+  - r10k::webhook
 
 r10k::remote: 'git@github.com:pscadiz/puppet-stuff.git'
+r10k::webhook::use_mcollective: false
