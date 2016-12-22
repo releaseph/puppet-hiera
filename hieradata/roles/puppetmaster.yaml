@@ -1,6 +1,5 @@
 ---
 classes:
   - r10k
-  - nano
 
 r10k::remote: 'git@github.com:pscadiz/puppet-stuff.git'
