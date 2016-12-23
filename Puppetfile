@@ -1,5 +1,9 @@
 forge 'forge.puppetlabs.com'
 
+mod 'profile',
+  :git => 'git@github.com:releaseph/puppet-profiles.git',
+  :branch => 'dev'
+
 mod 'r10k',
   :git => 'https://github.com/acidprime/r10k.git',
   :branch => 'master',
