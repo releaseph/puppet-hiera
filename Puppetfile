@@ -48,3 +48,8 @@ mod 'git',
   :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
   :branch => 'master',
   :commit => '4e4498e3db218cefc27e40b7eb4e442177ccab28'
+
+mod 'nginx',
+  :git => 'https://github.com/voxpupuli/puppet-nginx.git',
+  :branch => 'master',
+  :commit => 'fb8a8dcad22b2285b46c7c4ef531437bf33cd729'
