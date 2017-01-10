@@ -6,4 +6,5 @@
 :hierarchy:
   - node/%{::fqdn}
   - roles/%{::puppet_role}
+  - environments/%{::puppet_env}
   - common
