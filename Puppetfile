@@ -53,3 +53,15 @@ mod 'nginx',
   :git => 'https://github.com/voxpupuli/puppet-nginx.git',
   :branch => 'master',
   :commit => 'fb8a8dcad22b2285b46c7c4ef531437bf33cd729'
+
+mod 'apache',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
+  :tag => '1.11.0'
+
+mod 'php',
+  :git => 'https://github.com/voxpupuli/puppet-php.git',
+  :tag => '4.0.0-beta1'
+
+mod 'mysql',
+  :git => 'https://github.com/puppetlabs/puppetlabs-mysql.git',
+  :tag => '3.10.0'
