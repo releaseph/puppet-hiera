@@ -11,23 +11,19 @@ mod 'r10k',
 
 mod 'ntp',
   :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git',
-  :branch => 'master',
-  :commit => '4068aa268cd09d104053de2116e37ab5fff45f1f'
+  :tag => '6.0.0'
 
 mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
-  :branch => 'master',
-  :commit => 'b7e1f8974b0e7ed494a79bbde27214099108aac6'
+  :tag => '4.14.0'
 
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
-  :branch => 'master',
-  :commit => '37c4f8a40d9fc208c299b7a73ac0aba33cb90cc1'
+  :tag => '2.2.0'
 
 mod 'inifile',
   :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
-  :branch => 'master',
-  :commit => '56b24fa819826afd713f289ae355b095c3850ca4'
+  :tag => '1.6.0'
 
 mod 'hiera_resources',
   :git => 'https://github.com/rnelson0/puppet-hiera_resources.git',
@@ -36,23 +32,19 @@ mod 'hiera_resources',
 
 mod 'ec2tagfacts',
   :git => 'https://github.com/BIAndrews/ec2tagfacts.git',
-  :branch => 'master',
-  :commit => '5d333a9b4f340d2d81997ac03459665a4ba942a1'
+  :tag => '0.1.20'
 
 mod 'epel',
   :git => 'https://github.com/stahnma/puppet-module-epel.git',
-  :branch => 'master',
-  :commit => '292ff3311d5348a2449a53f8643dd20e43be52f1'
+  :tag => '1.2.2'
 
 mod 'git',
   :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
-  :branch => 'master',
-  :commit => '4e4498e3db218cefc27e40b7eb4e442177ccab28'
+  :tag => '0.5.0'
 
 mod 'nginx',
   :git => 'https://github.com/voxpupuli/puppet-nginx.git',
-  :branch => 'master',
-  :commit => 'fb8a8dcad22b2285b46c7c4ef531437bf33cd729'
+  :tag => 'v0.5.0'
 
 mod 'apache',
   :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
