@@ -1,3 +1,6 @@
 ---
 classes:
-  - profile::tng_admin
+  - apache
+  - apache::mod::php
+  - php
+  - mysql::client
