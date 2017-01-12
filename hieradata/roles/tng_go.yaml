@@ -4,3 +4,5 @@ classes:
   - apache::mod::php
   - php
   - mysql::client
+
+apache::docroot: '/mnt/data/www'
