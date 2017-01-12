@@ -32,7 +32,8 @@ mod 'hiera_resources',
 
 mod 'ec2tagfacts',
   :git => 'https://github.com/BIAndrews/ec2tagfacts.git',
-  :tag => '0.1.20'
+  :branch => 'master',
+  :commit => '5d333a9b4f340d2d81997ac03459665a4ba942a1'
 
 mod 'epel',
   :git => 'https://github.com/stahnma/puppet-module-epel.git',
