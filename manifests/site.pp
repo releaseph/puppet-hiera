@@ -10,5 +10,6 @@ if $::ec2_tag_puppet_env {
 
 hiera_include('classes',[])
 node default {
+  $resources = hiera('resources')
   create_resources('resources')
 }
