@@ -10,5 +10,4 @@ apache::docroot: '/mnt/data/www'
 resources:
   file:
     '/mnt':
-      path: '/mnt'
       ensure: 'directory'
