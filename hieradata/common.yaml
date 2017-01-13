@@ -1,7 +1,7 @@
 ---
 classes:
-  - profile::ntp
-  - profile::ec2tagfacts
+  - profile::base::ntp
+  - profile::base::ec2tagfacts
 
 ntp::servers:
   - 0.us.pool.ntp.org
