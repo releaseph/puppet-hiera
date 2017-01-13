@@ -1,6 +1,0 @@
----
-classes:
-  - apache
-  - apache::mod::php
-  - php
-  - mysql::client
