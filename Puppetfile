@@ -9,9 +9,8 @@ mod 'role',
   :branch => 'dev'
 
 mod 'r10k',
-  :git => 'https://github.com/acidprime/r10k.git',
-  :branch => 'master',
-  :commit => 'e584e3ae241307c6af01a0de87f6efbf8c058aba'
+  :git => 'https://github.com/pscadiz/puppet-r10k.git',
+  :branch => 'master'
 
 mod 'ntp',
   :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git',
