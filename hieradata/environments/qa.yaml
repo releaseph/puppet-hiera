@@ -1,0 +1,6 @@
+---
+classes:
+  - profile::base::tdrepo
+
+tng::admin::url: 'admin.qa.test.cambridge.org'
+tng::go::url: 'tng.qa.test.cambridge.org'
