@@ -3,8 +3,8 @@ classes:
   - r10k
   - r10k::webhook
   - r10k::webhook::config
-  - puppetdb
-  - puppetdb::master::config
+  # - puppetdb
+  # - puppetdb::master::config
 
 r10k::remote: 'git@github.com:releaseph/puppet-hiera.git'
 r10k::webhook::user: 'root'
