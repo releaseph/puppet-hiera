@@ -12,6 +12,14 @@ mod 'puppetdb',
   :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git',
   :tag => '5.1.2'
 
+mod 'postgresql',
+  :git => 'https://github.com/puppetlabs/puppetlabs-postgresql.git',
+  :tag => '4.8.0'
+
+mod 'firewall',
+  :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git',
+  :tag => '1.8.2'
+
 mod 'r10k',
   :git => 'https://github.com/pscadiz/puppet-r10k.git',
   :branch => 'master'
