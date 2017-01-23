@@ -2,11 +2,11 @@ forge 'forge.puppetlabs.com'
 
 mod 'profile',
   :git => 'git@github.com:releaseph/puppet-profiles.git',
-  :branch => 'dev'
+  :branch => 'devqa'
 
 mod 'role',
   :git => 'git@github.com:releaseph/puppet-roles.git',
-  :branch => 'dev'
+  :branch => 'devqa'
 
 mod 'ntp',
   :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git',
