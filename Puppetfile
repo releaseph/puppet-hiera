@@ -2,11 +2,7 @@ forge 'forge.puppetlabs.com'
 
 mod 'profile',
   :git => 'git@github.com:releaseph/puppet-profiles.git',
-  :branch => 'dev'
-
-mod 'role',
-  :git => 'git@github.com:releaseph/puppet-roles.git',
-  :branch => 'dev'
+  :branch => 'service'
 
 mod 'puppetdb',
   :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git',
@@ -57,19 +53,3 @@ mod 'epel',
 mod 'git',
   :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
   :tag => '0.5.0'
-
-mod 'nginx',
-  :git => 'https://github.com/voxpupuli/puppet-nginx.git',
-  :tag => 'v0.5.0'
-
-mod 'apache',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apache.git',
-  :tag => '1.11.0'
-
-mod 'php',
-  :git => 'https://github.com/voxpupuli/puppet-php.git',
-  :tag => '4.0.0-beta1'
-
-mod 'mysql',
-  :git => 'https://github.com/puppetlabs/puppetlabs-mysql.git',
-  :tag => '3.10.0'
