@@ -1,14 +1,3 @@
 ---
 classes:
-  - r10k
-  - r10k::webhook
-  - r10k::webhook::config
-  # - puppetdb
-  # - puppetdb::master::config
-
-r10k::remote: 'git@github.com:releaseph/puppet-hiera.git'
-r10k::webhook::user: 'root'
-r10k::webhook::group: '0'
-r10k::webhook::use_mcollective: false
-r10k::webhook::config::use_mcollective: false
-r10k::webhook::config::enable_ssl: false
+  - role::devops::puppetmaster
