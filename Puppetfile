@@ -57,3 +57,7 @@ mod 'epel',
 mod 'git',
   :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
   :tag => '0.5.0'
+
+mod 'puppetserver',
+  :git => 'https://github.com/voxpupuli/puppet-puppetserver.git',
+  :tag => '2.1.0'
