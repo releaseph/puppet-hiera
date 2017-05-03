@@ -1,5 +1,5 @@
 ---
 classes:
-  - role::devops::jenkins_host
+  - role::devops::jenkins_master
 
 profile::devops::jenkins::ensure: '2.9-1.1'
