@@ -2,4 +2,7 @@
 classes:
   - role::devops::puppetmaster
 
+profile::devops::puppetserver::xms: '512m'
+profile::devops::puppetserver::xmx: '512m'
+profile::devops::puppetserver::maxpermsize: '256m'
 profile::devops::r10k::control_repo: 'git@github.com:releaseph/puppet-hiera.git'
