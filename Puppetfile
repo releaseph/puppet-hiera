@@ -65,3 +65,7 @@ mod 'puppetserver',
 mod 'wget',
   :git => 'https://github.com/maestrodev/puppet-wget.git',
   :tag => 'v1.7.3'
+
+mod 'java',
+  :git => 'https://github.com/puppetlabs/puppetlabs-java.git',
+  :tag => '1.6.0'
