@@ -4,6 +4,10 @@ mod 'profile',
   :git => 'git@github.com:releaseph/puppet-profiles.git',
   :branch => 'service'
 
+mod 'role',
+  :git => 'git@github.com:releaseph/puppet-roles.git',
+  :branch => 'service'
+
 mod 'puppetdb',
   :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git',
   :tag => '5.1.2'
