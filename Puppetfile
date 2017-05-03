@@ -61,3 +61,7 @@ mod 'git',
 mod 'puppetserver',
   :git => 'https://github.com/voxpupuli/puppet-puppetserver.git',
   :tag => '2.1.0'
+
+mod 'wget',
+  :git => 'https://github.com/maestrodev/puppet-wget.git',
+  :tag => 'v1.7.3'
