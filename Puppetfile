@@ -57,3 +57,7 @@ mod 'epel',
 mod 'git',
   :git => 'https://github.com/puppetlabs/puppetlabs-git.git',
   :tag => '0.5.0'
+
+mod 'ruby',
+  :git => 'https://github.com/puppetlabs/puppetlabs-ruby.git',
+  :tag => '0.6.0'
