@@ -1,0 +1,3 @@
+---
+classes:
+  - role::devops::jenkins_slave
