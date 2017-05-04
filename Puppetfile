@@ -69,3 +69,7 @@ mod 'wget',
 mod 'java',
   :git => 'https://github.com/puppetlabs/puppetlabs-java.git',
   :tag => '1.6.0'
+
+mod 'docker',
+  :git => 'https://github.com/garethr/garethr-docker.git',
+  :tag => 'v5.3.0'
