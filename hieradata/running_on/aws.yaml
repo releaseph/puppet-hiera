@@ -1,0 +1,6 @@
+---
+classes:
+  - profile::base::ec2tagfacts
+
+ec2tagfacts::enable_epel: false
+ec2tagfacts::awscli_pkg: 'pip'
