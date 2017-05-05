@@ -1,11 +1,7 @@
 ---
 classes:
   - profile::base::ntp
-  - profile::base::ec2tagfacts
 
 ntp::servers:
   - 0.us.pool.ntp.org
   - 1.us.pool.ntp.org
-
-ec2tagfacts::enable_epel: false
-ec2tagfacts::awscli_pkg: 'pip'
