@@ -76,4 +76,4 @@ mod 'docker',
 
 mod 'puppet_vmware_facts',
   :git => 'https://github.com/pscadiz/puppet_vmware_facts.git',
-  :branch => master
+  :branch => 'master'
