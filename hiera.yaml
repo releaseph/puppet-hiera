@@ -6,4 +6,5 @@
 :hierarchy:
   - roles/%{::puppet_role}
   - environments/%{::puppet_env}
+  - running_on/%{::running_on}
   - common
