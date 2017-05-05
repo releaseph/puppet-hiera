@@ -1,0 +1,5 @@
+---
+resources:
+  package:
+    'nano':
+      ensure: installed
