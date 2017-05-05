@@ -75,5 +75,5 @@ mod 'docker',
   :tag => 'v5.3.0'
 
 mod 'puppet_vmware_facts',
-  :git => 'https://github.com/pscadiz/puppet_vmware_facts.git',
+  :git => 'https://github.com/releaseph/puppet_vmware_facts.git',
   :branch => 'master'
