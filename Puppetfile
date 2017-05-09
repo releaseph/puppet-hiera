@@ -74,6 +74,6 @@ mod 'docker',
   :git => 'https://github.com/garethr/garethr-docker.git',
   :tag => 'v5.3.0'
 
-mod 'puppet_vmware_facts',
-  :git => 'git@github.com:releaseph/puppet_vmware_facts.git',
+mod 'puppet_custom_facts',
+  :git => 'git@github.com:releaseph/puppet_custom_facts.git',
   :branch => 'master'
