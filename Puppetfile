@@ -64,4 +64,4 @@ mod 'puppet_vmware_facts',
 
 mod 'puppet_config',
   :git => 'git@github.com:pscadiz/puppet_config.git',
-  :branch => master
+  :branch => 'master'
