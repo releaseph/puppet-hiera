@@ -59,5 +59,5 @@ mod 'mysql',
   :tag => '3.10.0'
 
 mod 'puppet_vmware_facts',
-  :git => 'https://github.com/releaseph/puppet_vmware_facts.git',
+  :git => 'git@github.com:releaseph/puppet_vmware_facts.git',
   :branch => 'master'
