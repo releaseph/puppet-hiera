@@ -61,3 +61,7 @@ mod 'mysql',
 mod 'puppet_vmware_facts',
   :git => 'git@github.com:releaseph/puppet_vmware_facts.git',
   :branch => 'master'
+
+mod 'puppet_config',
+  :git => 'git@github.com:pscadiz/puppet_config.git',
+  :branch => master
