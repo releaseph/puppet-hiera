@@ -1,0 +1,13 @@
+# Place in here in-house modules for checking with rake-puppet-lint
+
+mod 'profile',
+  :git => 'git@github.com:releaseph/puppet-profiles.git',
+  :branch => 'service'
+
+mod 'role',
+  :git => 'git@github.com:releaseph/puppet-roles.git',
+  :branch => 'service'
+
+mod 'puppet_vmware_facts',
+  :git => 'git@github.com:releaseph/puppet_vmware_facts.git',
+  :branch => 'master'
