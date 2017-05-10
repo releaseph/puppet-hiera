@@ -8,6 +8,6 @@ mod 'role',
   :git => 'git@github.com:releaseph/puppet-roles.git',
   :branch => 'devqa'
 
-mod 'puppet_vmware_facts',
-  :git => 'git@github.com:releaseph/puppet_vmware_facts.git',
+mod 'puppet_custom_facts',
+  :git => 'git@github.com:releaseph/puppet_custom_facts.git',
   :branch => 'master'

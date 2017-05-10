@@ -58,8 +58,8 @@ mod 'mysql',
   :git => 'https://github.com/puppetlabs/puppetlabs-mysql.git',
   :tag => '3.10.0'
 
-mod 'puppet_vmware_facts',
-  :git => 'git@github.com:releaseph/puppet_vmware_facts.git',
+mod 'puppet_custom_facts',
+  :git => 'git@github.com:releaseph/puppet_custom_facts.git',
   :branch => 'master'
 
 mod 'puppet_config',
