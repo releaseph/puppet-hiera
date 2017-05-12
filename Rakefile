@@ -7,3 +7,12 @@ YamlLint::RakeTask.new do |t|
         hiera.yaml
     )
 end
+
+task :rubylint do
+	Dir['modules/**/*.rb','modules/**/*.erb'].each do |file|
+		test = `ruby -c #{file}`
+		if !$?.success?
+			exit 1
+		end
+	end
+end
