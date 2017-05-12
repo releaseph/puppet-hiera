@@ -10,7 +10,7 @@ end
 
 task :rubylint do
 	Dir['modules/**/*.rb','modules/**/*.erb'].each do |file|
-		test = `ruby -c #{file}`
+		`ruby -c #{file}`
 		if !$?.success?
 			exit 1
 		end
